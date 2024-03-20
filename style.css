@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#FFFFFF;
+    
+}
+body{
+    background-image:url("./assets/sl_031420_28950_20.jpg");
+   
+    
+   
+   
+}
+
+header{
+    background-color: #12c43f;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 5px 20px;
+   width: 100%;
+   gap:5%;
+   
+}
+header img{
+    border-radius: 100px;
+    width: 10%;
+    height: 10%;
+}
+
+h1{
+    color: black;
+    font-size: 1.5rem;
+    
+}
+
+.container__app__aplication{
+    padding: 5% 15%;
+    display: flex;
+    gap: 10%;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+   
+        
+    
+    
+}
+
+.container__app__input__text{
+    height: 300px;
+    width: 500px;
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background:none;
+    text-align:left;
+    font-size: 1.5rem;
+    
+}
+
+.container__app__cripto_btn{
+    display: flex;
+    gap:6px;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container__app__cripto_btn1,
+.container__app__cripto_btn2,
+.container__app__cripto_btn-copy{
+    cursor: pointer;
+    border:none;
+    border-radius: 50px;
+    background-color: black;
+    color: bisque;
+    width: 200px;
+    height: 80px;
+}
+
+button:hover{
+    color: #12c43f;
+    opacity: 0.8;
+
+}
+
+.container__app__cripto__text{
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 20px;
+    height: 300px;
+    width: 500px;
+    background: none;
+    text-align:centeleft;
+    font-size: 1.5rem;
+
+}
+
+.container__app__cripto_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: bisque;
+    
+    
+}
+
+.container__app__dev{
+    display: flex;
+    padding-top:5px;
+    gap:20px;
+    justify-content:center;
+    align-items:center;
+    background-color:#12c43f;
+    margin-top: auto;
+    bottom: 0%;
+    width: 100%;
+    
+    
+}
+span{
+    font-size:1,5rem;
+}
+
+a img{
+
+    width: 40px;
+}
+
+
+@media(max-width:1160px){
+
+    .container__app__aplication{
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        padding: 5%;
+    }
+    .container__app__cripto{
+        margin: auto;
+    }
+
+    .container__app__cripto__text{
+
+        margin: auto;
+    } 
+
+    .container__app__cripto_btn{
+        justify-content: center;
+        margin-top: 5%;
+        gap: 10%;
+        
+    }
+    .container__app__input{
+        margin: auto;
+    }
+
+    
+    
+}

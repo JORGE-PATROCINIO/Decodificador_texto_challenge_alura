@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador JS</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>  
+</head>
+<body class="container__app">
+    <header class="container__app__logo">
+        <img src="./assets/favicon.png" alt="logo Jorge Augusto">
+        <h1>CODIFICADOR DE TEXTO</h1>
+    </header>
+    <main class="container__app__aplication">
+        <section class="container__app__input">
+            
+            <textarea class="container__app__input__text"> </textarea>
+            
+            <div class="container__app__cripto_btn">
+                <button class="container__app__cripto_btn1" onclick="Criptografar()">CRIPTOGRAFAR</button>
+                <button class="container__app__cripto_btn2" onclick="Descriptografar()">DESCRIPTOGRAFAR</button>
+            </div>
+        </section>
+        <section class="container__app__cripto">
+            <textarea class = "container__app__cripto__text" disabled placeholder="Resultado Aqui!"></textarea>
+            <div class="container__app__cripto_button">
+                <button class="container__app__cripto_btn-copy" onclick="Copy()"> COPIAR</button>
+            </div>  
+        </section>
+    </main>
+    <footer class="container__app__dev">
+        <span>JORGE AUGUSTO</span>
+        <a href="https://linkedin.com" target="_blank"><img src="./assets/linkedin.png" alt=""></a>
+        <a href="https://github.com" target="_blank"><img src="./assets/github.png" alt=""></a>
+    </footer>
+   
+</body>
+
+</html>
